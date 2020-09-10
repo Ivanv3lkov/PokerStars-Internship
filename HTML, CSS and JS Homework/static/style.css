@@ -2,7 +2,6 @@ body {
   background-color: #59ABE3;  
   font-family: "Lato", sans-serif;
   font-style: inherit;
-  
 }
 
 article {
@@ -18,7 +17,9 @@ h1 {
 
 h2 {
 font-weight: bold;
+padding-left: 4em;
 margin-top: 0;
+color: white;
 }
 
 label {
@@ -41,20 +42,23 @@ section {
   max-width: 350px; 
 }
 
-p {
+#container p {
   color: white;
   background-image: linear-gradient(to bottom right, blue, yellow);
+  padding-left: 4em;
 }
 img {
-  border-radius: 16px;
   position: absolute;
+  top: 0px;
+  right: 0px;
+  border-radius: 16px;
   top: 3.5em;
   right: 3.5em;
-  width: 450px;
-  height: 550px;
+  width: 350;
+  height: 450px;
 }
 
-#button {
+button {
   padding: 0.6rem 1rem;
   font-size: 1.1em;
   margin: 1rem 0;
@@ -64,7 +68,15 @@ img {
   border-radius: 5px;
   outline: none;
   font-weight: bold;
-  letter-spacing: 0px;
   cursor: pointer;
+}
+
+#errorContainer p {
+  background-color: black;
+  padding-left: 5em;
+  font-size: 1.5em;
+  color: red;
+  max-width: 500px;
+  border-radius: 8px;
 }
  
