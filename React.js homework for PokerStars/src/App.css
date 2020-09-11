@@ -1,0 +1,63 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-style: inherit;
+  background-image: url("weatherPhoto.jpg");
+  background-size: cover;
+}
+
+h1 {
+  background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(0, 162, 255));
+  color: white;
+  font-size: 2.5em;
+  max-width: 16em;
+  border-radius: 32px;
+  padding: 10px;
+  text-align: center;
+  margin-left: 2.5em;
+
+  
+}
+.paragraph {
+  font-size: 1.5em;
+  color: white;
+  background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(0, 162, 255));
+  max-width: 16em;
+  text-align: center;
+
+}
+
+section {
+  margin: 10em;
+  position: fixed;
+  bottom: 300px;
+   
+}
+
+article {
+  margin-left: 13em;
+  margin-top: 10em;
+}
+
+input {
+  padding-bottom: 0em;
+  padding: 0.7em;
+  margin: 0.5em 0.5em 0em 0.5em;
+
+}
+
+label {
+  margin-left: 2.5em;
+  color: black;
+  font-weight: bold;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  font-size: 1.1em;
+  margin: 1rem 1rem;
+  color: white;
+  background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(0, 162, 255));
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
