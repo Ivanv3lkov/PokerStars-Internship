@@ -8,7 +8,7 @@ h1 {
   font-size: 4.5em;
   color: white;
   text-align: center;
-  margin: 0 0 0 0;
+  margin: 0 0 0.5em 0;
 }
 
 #container {
@@ -16,9 +16,10 @@ h1 {
 }
 
 article {
+  font-size: 1.2em;
   position: absolute;
   text-align: center;
-  left: 30%;
+  left: 26%;
 }
 
 label {
@@ -66,7 +67,6 @@ button {
   font-weight: bold;
   cursor: pointer;
   border: 2px solid black;
- 
 }
 
 #errorContainer p {
@@ -74,10 +74,9 @@ button {
   background-color: rgb(80, 60, 60);
   font-family: initial;
   font-weight: bold;
-  margin-left: 17em;
-  font-size: 1.5em;
+  margin-left: 8em;
+  font-size: 2.5em;
   color: red;
-  max-width: 500px;
+  max-width: 700px;
   border-radius: 8px;
-  
 }

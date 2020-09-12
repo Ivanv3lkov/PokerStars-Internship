@@ -46,6 +46,7 @@ showBtn.addEventListener('click', (e) => {
                 section.appendChild(wind);
                 container.appendChild(section);
             }).catch(function(error) {
+                errorContainer.textContent = '';
                 if (location) {
                     const p = makeElement('p', 'Sorry, not found.');
                     errorContainer.appendChild(p);
@@ -58,6 +59,7 @@ showBtn.addEventListener('click', (e) => {
         document.querySelector('input').style.border = '';
     } else {
         if (location) {
+            errorContainer.textContent = '';
             const p = makeElement('p', 'Please enter а location, not numbers!');
             errorContainer.appendChild(p);
             document.querySelector('input').style.border = '';
