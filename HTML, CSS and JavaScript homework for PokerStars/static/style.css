@@ -1,7 +1,7 @@
 body {
   background-image: url("landscape.jpeg");
   background-size: cover;
-  font-family: "Lato", sans-serif;
+  font-family: initial;
 }
 
 h1 {
@@ -71,7 +71,9 @@ button {
 
 #errorContainer p {
   text-align: center;
-  background-color: black;
+  background-color: rgb(80, 60, 60);
+  font-family: initial;
+  font-weight: bold;
   margin-left: 17em;
   font-size: 1.5em;
   color: red;
