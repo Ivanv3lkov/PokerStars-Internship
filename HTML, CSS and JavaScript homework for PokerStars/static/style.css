@@ -1,30 +1,32 @@
 body {
-  background-color: linear-gradient(to bottom right, orange, yellow);
+  background-image: url("landscape.jpeg");
+  background-size: cover;
   font-family: "Lato", sans-serif;
-  font-style: inherit;
 }
 
 article {
-  padding-top: 1em;
+  
+  text-align: center;
 }
-h1 {
-  background-image: linear-gradient(to bottom right, blue, yellow);
-  font-size: 3em;
-  max-width: 620px;
-  border-radius: 8px;
 
+h1 {
+  font-size: 4.5em;
+  color: white;
+  text-align: center;
+  margin-top: 0;
 }
 
 h2 {
+font-size: 4em;
 font-weight: bold;
-padding-left: 4em;
-margin-top: 0;
 color: white;
 }
 
 label {
-  font-size: 1.5em;
+  color: white;
+  font-size: 1.3em;
   font-weight: bold;
+  
 }
 
 input {
@@ -33,20 +35,9 @@ input {
 }
 
 section {
-  font-size: 1.1em;
-  font-weight: bold;
-  line-height: 2em;
-  background-image: linear-gradient(to bottom right, blue, yellow);
-  border-radius: 16px;
-  padding: 4px 9px;
-  max-width: 350px; 
+ text-align: center;
 }
 
-#container p {
-  color: white;
-  background-image: linear-gradient(to bottom right, blue, yellow);
-  padding-left: 4em;
-}
 img {
   position: absolute;
   top: 0px;
@@ -61,14 +52,16 @@ img {
 button {
   padding: 0.6rem 1rem;
   font-size: 1.1em;
-  margin: 1rem 0;
-  border: none;
+  margin: 1rem 1rem;
   color: white;
-  background-image: linear-gradient(to bottom right, blue, yellow);
+  background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(0, 162, 255));
   border-radius: 5px;
-  outline: none;
   font-weight: bold;
   cursor: pointer;
+}
+
+#container p {
+  color: white;
 }
 
 #errorContainer p {
@@ -79,4 +72,3 @@ button {
   max-width: 500px;
   border-radius: 8px;
 }
- 
