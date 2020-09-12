@@ -21,7 +21,7 @@ showBtn.addEventListener('click', (e) => {
 
     if (isNaN(location) && location !== undefined) {
         axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=37c689d8c93066153ad764c1c8ca9a0d`)
-            .then(function (response) {
+            .then(function(response) {
                 errorContainer.textContent = '';
 
                 const country = response.data.sys.country;
@@ -45,7 +45,7 @@ showBtn.addEventListener('click', (e) => {
                 section.appendChild(temp_min);
                 section.appendChild(wind);
                 container.appendChild(section);
-            }).catch(function () {
+            }).catch(function(error) {
                 if (location) {
                     const p = makeElement('p', 'Sorry, not found.');
                     errorContainer.appendChild(p);
