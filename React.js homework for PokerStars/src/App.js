@@ -13,7 +13,7 @@ function App() {
     
     if (isNaN(location) && location !== undefined) {
       fetch(`http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=37c689d8c93066153ad764c1c8ca9a0d`)
-        .then(response => response.json())
+        .then(response => response.json()) 
         .then(data => {
           setTemperature(data.main.temp);
           setFeelsLike(data.main.feels_like);
@@ -23,7 +23,7 @@ function App() {
           alert('Sorry, not found.');
         })
     } else {
-      alert('Please enter valid location.');
+      alert('Please enter а valid location.');
     }
   }
 
