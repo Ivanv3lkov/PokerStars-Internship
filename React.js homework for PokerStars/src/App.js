@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
 
-
 function App() {
   const [location, setLocation] = useState();
   const [temperature, setTemperature] = useState();
