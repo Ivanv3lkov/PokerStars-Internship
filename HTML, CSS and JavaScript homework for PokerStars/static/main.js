@@ -1,5 +1,5 @@
 function makeElement(type, text) {
-    let element = document.createElement(type);
+    const element = document.createElement(type);
     if (text !== null) {
         element.textContent = text;
     }
@@ -12,7 +12,7 @@ const showBtn = document.querySelector('#showBtn');
 
 showBtn.addEventListener('click', (e) => {
     e.preventDefault();
-    let location = document.querySelector('input').value.trim();
+    const location = document.querySelector('input').value.trim();
 
     if (document.querySelector('h2') && location) {
         container.removeChild(document.querySelector('section'));
@@ -24,17 +24,17 @@ showBtn.addEventListener('click', (e) => {
             .then(function (response) {
                 errorContainer.textContent = '';
 
-                let country = response.data.sys.country;
-                let h2 = makeElement('h2', location + `, ${country}`);
-                let temp = makeElement('p', `Temperature: ${(response.data.main.temp - 273.15).toFixed(2)}°C`);
-                let feelsLike = makeElement('p', `Feels Like: ${(response.data.main.feels_like - 273.15).toFixed(2)}°C`);
-                let humidity = makeElement('p', `Humidity: ${response.data.main.humidity}%`);
-                let pressure = makeElement('p', `Pressure: ${response.data.main.pressure} hPa`);
-                let temp_max = makeElement('p', `Max Temperature: ${(response.data.main.temp_max - 273.15).toFixed(2)}°C`);
-                let temp_min = makeElement('p', `Min Temperature: ${(response.data.main.temp_min - 273.15).toFixed(2)}°C`);
-                let wind = makeElement('p', `Wind: ${response.data.wind.speed} kmh`);
+                const country = response.data.sys.country;
+                const h2 = makeElement('h2', location + `, ${country}`);
+                const temp = makeElement('p', `Temperature: ${(response.data.main.temp - 273.15).toFixed(2)}°C`);
+                const feelsLike = makeElement('p', `Feels Like: ${(response.data.main.feels_like - 273.15).toFixed(2)}°C`);
+                const humidity = makeElement('p', `Humidity: ${response.data.main.humidity}%`);
+                const pressure = makeElement('p', `Pressure: ${response.data.main.pressure} hPa`);
+                const temp_max = makeElement('p', `Max Temperature: ${(response.data.main.temp_max - 273.15).toFixed(2)}°C`);
+                const temp_min = makeElement('p', `Min Temperature: ${(response.data.main.temp_min - 273.15).toFixed(2)}°C`);
+                const wind = makeElement('p', `Wind: ${response.data.wind.speed} kmh`);
 
-                let section = makeElement('section');
+                const section = makeElement('section');
 
                 section.appendChild(h2);
                 section.appendChild(temp);
@@ -47,7 +47,7 @@ showBtn.addEventListener('click', (e) => {
                 container.appendChild(section);
             }).catch(function () {
                 if (location) {
-                    let p = makeElement('p', 'Sorry, not found.');
+                    const p = makeElement('p', 'Sorry, not found.');
                     errorContainer.appendChild(p);
                 } else {
                     document.querySelector('input').style.border = 'solid red';
@@ -58,7 +58,7 @@ showBtn.addEventListener('click', (e) => {
         document.querySelector('input').style.border = '';
     } else {
         if (location) {
-            let p = makeElement('p', 'Please enter location, not numbers!');
+            const p = makeElement('p', 'Please enter location, not numbers!');
             errorContainer.appendChild(p);
             document.querySelector('input').style.border = '';
         } else {
