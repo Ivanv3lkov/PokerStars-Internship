@@ -58,7 +58,7 @@ showBtn.addEventListener('click', (e) => {
         document.querySelector('input').style.border = '';
     } else {
         if (location) {
-            const p = makeElement('p', 'Please enter location, not numbers!');
+            const p = makeElement('p', 'Please enter а location, not numbers!');
             errorContainer.appendChild(p);
             document.querySelector('input').style.border = '';
         } else {
