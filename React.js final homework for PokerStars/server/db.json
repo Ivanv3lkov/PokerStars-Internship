@@ -1,0 +1,90 @@
+{
+  "albums": [
+    {
+      "title": "Get the guns",
+      "author": "Eminem",
+      "image": "https://img.discogs.com/4p0C4CLFk2atNPOeQT6sW16Uiu8=/fit-in/600x592/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-8529219-1463431114-3808.jpeg.jpg",
+      "songs": [
+        "\tCountdown",
+        "\tGet My Gun",
+        "\t9 Eminem11",
+        "\tRap Game",
+        "\tWords Are Weapons"
+      ],
+      "id": 15
+    },
+    {
+      "title": "Lemonade",
+      "author": "Beyonce",
+      "image": "https://pyxis.nymag.com/v1/imgs/245/4b9/b4496eda47e6c7c641cc7fa774498cab82-25-beyonce-lemonade-cover.rsquare.w700.jpg",
+      "songs": [
+        "Sorry",
+        "All Night",
+        "Hold up",
+        "Daddy Lessons",
+        "Freedom"
+      ],
+      "id": 16
+    },
+    {
+      "title": "Global",
+      "author": "Carl Cox",
+      "image": "https://img.discogs.com/e5MEOG5YkfDWHSNvthTGF8ES1dc=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-9583585-1483147776-5517.jpeg.jpg",
+      "songs": [
+        "Kickback ",
+        "Turn It Up",
+        "Nation"
+      ],
+      "id": 17
+    },
+    {
+      "title": "Until the End of Time",
+      "author": "2Pac",
+      "image": "https://img.discogs.com/aRQKkXdWpdN5xUVHXHlOdekALMo=/fit-in/600x593/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-410539-1347442287-4157.jpeg.jpg",
+      "songs": [
+        "Fuck Friendz",
+        "Go To Sleep",
+        "Say My Name",
+        "Words Are Weapons"
+      ],
+      "id": 18
+    },
+    {
+      "title": "Test",
+      "author": "Unknown",
+      "image": " ",
+      "songs": [
+        "qwerty"
+      ],
+      "id": 19
+    },
+    {
+      "title": "Test 2",
+      "author": "Unknown",
+      "image": "\"\"",
+      "songs": [
+        "qwerty2",
+        "qwerty3"
+      ],
+      "id": 20
+    },
+    {
+      "title": "Test 3",
+      "author": "Unknown",
+      "image": "https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg",
+      "songs": [
+        "Qwerty"
+      ],
+      "id": 21
+    },
+    {
+      "title": "Test 10",
+      "author": "qwerty111",
+      "image": "no image",
+      "songs": [
+        "ffffff"
+      ],
+      "id": 22
+    }
+  ]
+}
