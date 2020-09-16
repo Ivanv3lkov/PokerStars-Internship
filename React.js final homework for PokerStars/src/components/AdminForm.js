@@ -1,36 +1,66 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
-const AdminForm = ({ onSuccess }) => {
+const AdminForm = ({ onSuccess, album, isEditing, setToSubmit }) => {
   const [title, setTitle] = useState("");
   const [author, setAuthor] = useState("");
   const [image, setImage] = useState("");
   const [songs, setSongs] = useState([""]);
 
+  useEffect(() => {
+    if (album && isEditing) {
+      setTitle(album.title);
+      setAuthor(album.author);
+      setImage(album.image);
+      setSongs(album.songs);
+    }
+  }, [album, isEditing]);
+
   const onFormSubmit = (e) => {
     e.preventDefault();
 
-    fetch("http://localhost:3001/albums", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        title,
-        author,
-        image,
-        songs,
-      }),
-    }).then(() => {
-      onSuccess();
-      clearFormValues();
-    });
+    if (!isEditing) {
+      fetch("http://localhost:3001/albums", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          title,
+          author,
+          image,
+          songs,
+        }),
+      }).then(() => {
+        onSuccess();
+        clearFormValues();
+      });
+    } else {
+      fetch(`http://localhost:3001/albums/${album.id}`, {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          id: album.id,
+          title,
+          author,
+          image,
+          songs,
+        }),
+      }).then(() => {
+        onSuccess();
+        clearFormValues();
+      });
+    }
   };
+
 
   const clearFormValues = () => {
     setTitle("");
     setAuthor("");
     setImage("");
     setSongs([""]);
+    setToSubmit(false)
   };
 
   const onSongChange = (value, songIndex) => {
@@ -84,7 +114,7 @@ const AdminForm = ({ onSuccess }) => {
         );
       })}
       <button type="submit" className="submit-button">
-        Submit
+        {isEditing ? 'Save' : 'Submit'}
       </button>
     </form>
   );

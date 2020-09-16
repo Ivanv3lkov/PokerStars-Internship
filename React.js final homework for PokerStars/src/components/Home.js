@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import "../App.css";
 import Albums from "./Albums";
 import AdminPanel from "./AdminPanel";
-import Router from "../router";
-
 
 const views = {
   ALBUMS: "ALBUMS",

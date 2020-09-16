@@ -1,32 +1,6 @@
 {
   "albums": [
     {
-      "title": "Get the guns",
-      "author": "Eminem",
-      "image": "https://img.discogs.com/4p0C4CLFk2atNPOeQT6sW16Uiu8=/fit-in/600x592/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-8529219-1463431114-3808.jpeg.jpg",
-      "songs": [
-        "\tCountdown",
-        "\tGet My Gun",
-        "\t9 Eminem11",
-        "\tRap Game",
-        "\tWords Are Weapons"
-      ],
-      "id": 15
-    },
-    {
-      "title": "Lemonade",
-      "author": "Beyonce",
-      "image": "https://pyxis.nymag.com/v1/imgs/245/4b9/b4496eda47e6c7c641cc7fa774498cab82-25-beyonce-lemonade-cover.rsquare.w700.jpg",
-      "songs": [
-        "Sorry",
-        "All Night",
-        "Hold up",
-        "Daddy Lessons",
-        "Freedom"
-      ],
-      "id": 16
-    },
-    {
       "title": "Global",
       "author": "Carl Cox",
       "image": "https://img.discogs.com/e5MEOG5YkfDWHSNvthTGF8ES1dc=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-9583585-1483147776-5517.jpeg.jpg",
@@ -50,7 +24,7 @@
       "id": 18
     },
     {
-      "title": "Test",
+      "title": "Test1234",
       "author": "Unknown",
       "image": " ",
       "songs": [
@@ -59,17 +33,7 @@
       "id": 19
     },
     {
-      "title": "Test 2",
-      "author": "Unknown",
-      "image": "\"\"",
-      "songs": [
-        "qwerty2",
-        "qwerty3"
-      ],
-      "id": 20
-    },
-    {
-      "title": "Test 3",
+      "title": "Test 333",
       "author": "Unknown",
       "image": "https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg",
       "songs": [
@@ -78,13 +42,58 @@
       "id": 21
     },
     {
-      "title": "Test 10",
+      "title": "rwerwerwerewr222222",
       "author": "qwerty111",
+      "image": "no image",
+      "songs": [
+        "ffffffsadasdasdasdasd"
+      ],
+      "id": 22
+    },
+    {
+      "title": "tgregsg",
+      "author": "sdgzdg",
+      "image": ", ",
+      "songs": [
+        ""
+      ],
+      "id": 23
+    },
+    {
+      "title": "Test 111",
+      "author": "hhhhh",
       "image": "no image",
       "songs": [
         "ffffff"
       ],
-      "id": 22
+      "id": 24
+    },
+    {
+      "title": "Test 3",
+      "author": "Unknown",
+      "image": "https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg",
+      "songs": [
+        "Qwerty"
+      ],
+      "id": 25
+    },
+    {
+      "title": "Test 10",
+      "author": "hhhhh",
+      "image": "no image",
+      "songs": [
+        "ffffff"
+      ],
+      "id": 26
+    },
+    {
+      "title": "sss3123123213",
+      "author": "ssss",
+      "image": "ssss",
+      "songs": [
+        "sss"
+      ],
+      "id": 27
     }
   ]
 }
