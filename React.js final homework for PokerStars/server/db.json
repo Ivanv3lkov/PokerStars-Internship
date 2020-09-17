@@ -24,76 +24,81 @@
       "id": 18
     },
     {
-      "title": "Test1234",
-      "author": "Unknown",
-      "image": " ",
+      "title": "Lemonade",
+      "author": "Beyonce",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/Beyonc%C3%A9_-_Beyonc%C3%A9.svg",
       "songs": [
-        "qwerty"
+        "Hold up",
+        "Sorry",
+        "All night"
       ],
-      "id": 19
+      "id": 28
     },
     {
-      "title": "Test 333",
-      "author": "Unknown",
-      "image": "https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg",
+      "title": "Forever King",
+      "author": "50 Cent",
+      "image": "https://img.discogs.com/mEDAbF5nlR0TYIXr-yBAXL5hS5I=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-3863792-1347311046-6026.jpeg.jpg",
       "songs": [
-        "Qwerty"
+        "If you leaving, Then leave",
+        "Touch me",
+        "Put that work in"
       ],
-      "id": 21
+      "id": 29
     },
     {
-      "title": "rwerwerwerewr222222",
-      "author": "qwerty111",
-      "image": "no image",
+      "title": "One night in Japan",
+      "author": "Michael Jackson",
+      "image": "https://img.discogs.com/cAgjdoBu5yKHXbaJkn6B6Mx_ByQ=/fit-in/500x444/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2930095-1307830384.jpeg.jpg",
       "songs": [
-        "ffffffsadasdasdasdasd"
+        "Wanna Be Startin' Somethin",
+        "Things I Do For You",
+        "Off The Wall",
+        "Human Nature"
       ],
-      "id": 22
+      "id": 30
     },
     {
-      "title": "tgregsg",
-      "author": "sdgzdg",
-      "image": ", ",
+      "title": "Dark Lane Demo Tapes",
+      "author": "Drake",
+      "image": "https://pbs.twimg.com/media/EXsXcLXXQAEH5bs.jpg",
       "songs": [
-        ""
+        "Deep Pockets",
+        "When To Say When",
+        "Chicago Freestyle"
       ],
-      "id": 23
+      "id": 31
     },
     {
-      "title": "Test 111",
-      "author": "hhhhh",
-      "image": "no image",
+      "title": "El Dorado",
+      "author": "Shakira",
+      "image": "https://pbs.twimg.com/media/ER9hM_oWAAEApkE.jpg",
       "songs": [
-        "ffffff"
+        "Me Enamorй",
+        "Nada ",
+        "Chantaje",
+        "When A Woman"
       ],
-      "id": 24
+      "id": 32
     },
     {
-      "title": "Test 3",
-      "author": "Unknown",
-      "image": "https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg",
+      "title": "Rather You Than Me",
+      "author": "Rick Ross",
+      "image": "https://i.pinimg.com/originals/9f/a8/ef/9fa8efb5210ce5939ccebc20a8337eeb.jpg",
       "songs": [
-        "Qwerty"
+        "Apple Of My Eyes",
+        "Santorini Greece",
+        "Dead Presidents"
       ],
-      "id": 25
+      "id": 33
     },
     {
-      "title": "Test 10",
-      "author": "hhhhh",
-      "image": "no image",
+      "title": "Test1000",
+      "author": "j2j2j2j2j",
+      "image": "No Image",
       "songs": [
-        "ffffff"
+        "No songs"
       ],
-      "id": 26
-    },
-    {
-      "title": "sss3123123213",
-      "author": "ssss",
-      "image": "ssss",
-      "songs": [
-        "sss"
-      ],
-      "id": 27
+      "id": 34
     }
   ]
 }
