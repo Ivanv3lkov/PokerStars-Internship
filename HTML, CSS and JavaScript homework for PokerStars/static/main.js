@@ -45,7 +45,7 @@ showBtn.addEventListener('click', (e) => {
                 section.appendChild(temp_min);
                 section.appendChild(wind);
                 container.appendChild(section);
-            }).catch(function(error) {
+            }).catch(function(err) {
                 errorContainer.textContent = '';
                 if (location) {
                     const p = makeElement('p', 'Sorry, not found.');

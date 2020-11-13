@@ -1,6 +1,7 @@
 body {
   background-color: lightgrey;
 }
+
 header {
   border: 1px solid black;
   background-color: #f3f3f3;
@@ -15,7 +16,6 @@ header {
   padding: 15px;
   font-weight: bold;
 }
-
 
 .highlight {
   background-color: blue;
@@ -49,5 +49,3 @@ font-size: 2em;
   margin-right: auto;
   width: 30%;
 }
-
-

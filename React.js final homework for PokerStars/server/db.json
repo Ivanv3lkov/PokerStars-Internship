@@ -7,7 +7,8 @@
       "songs": [
         "Kickback ",
         "Turn It Up",
-        "Nation"
+        "Nation",
+        ""
       ],
       "id": 17
     },
@@ -90,15 +91,6 @@
         "Dead Presidents"
       ],
       "id": 33
-    },
-    {
-      "title": "Test1000",
-      "author": "j2j2j2j2j",
-      "image": "No Image",
-      "songs": [
-        "No songs"
-      ],
-      "id": 34
     }
   ]
 }

@@ -4,6 +4,7 @@ import { useHistory } from "react-router-dom";
 const Details = () => {
     const history = useHistory();
     const id = history.location.search.match(/\d+/gm)[0];
+    
     const [moreDetails, setMoreDetails] = useState();
 
     useEffect(() => {

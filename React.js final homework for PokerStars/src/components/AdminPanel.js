@@ -28,7 +28,6 @@ const AdminPanel = () => {
       });
   };
 
-
   return (
     <div>
       <h1>Admin panel</h1>
