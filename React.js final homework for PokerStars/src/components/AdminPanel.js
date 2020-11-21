@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./AdminPanel.css";
 import AdminForm from "./AdminForm";
-import useDataHook from "./dataHook";
+import useDataHook from "./DataHook";
 
 
 const AdminPanel = () => {

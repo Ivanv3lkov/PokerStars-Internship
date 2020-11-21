@@ -1,6 +1,6 @@
 import React from "react";
 import "./Albums.css";
-import useDataHook from "./dataHook";
+import useDataHook from "./DataHook";
 import { Link } from "react-router-dom";
 
 const defaultImage = "https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg";
