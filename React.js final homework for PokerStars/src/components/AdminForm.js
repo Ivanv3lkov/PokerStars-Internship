@@ -54,7 +54,6 @@ const AdminForm = ({ onSuccess, album, isEditing, setToSubmit }) => {
     }
   };
 
-
   const clearFormValues = () => {
     setTitle("");
     setAuthor("");
